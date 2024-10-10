@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Activity 3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <link rel="icon" type="image/x-icon" href="Logo_last.png">
+  
+  <style>
+    .activity {
+      width: 100%;
+      height: auto;
+      background-color: rgb(156, 225, 247);
+      display: flex;
+      justify-content: center;
+      padding-top: 25px;
+    }
+    .activity p {
+      font-size: 18px;
+    }
+    #img-area {
+      width: 40%;
+    }
+    #content-area {
+      width: 60%;
+    }
+    #heading {
+      font-family: Harrington;
+      font-size: 40px;
+      font-weight: bolder;
+    }
+    table, th, td {
+      border: 2px solid black;
+      padding: 12px;
+      font-size: 20px;
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <audio id="cheers">
+    <source src="cheers.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="points" src="Points.mp3"></audio>
+  <audio id="fail" src="fail.mp3"></audio>
+
+  <div class="header" style="width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0); padding-bottom:10px;">
+    <img src="Logo.png" width="5%" style="float:left; margin-top:25px;" class="img-responsive">
+    <span><img src="header.png" width="30%" height="auto" class="img-responsive"></span>
+  </div>
+  
+  <br><br>
+  
+  <center>
+    <h1 id="heading">Tenses </h1>
+  </center>
+  
+  <div class="container text-center" style="font-size: 22px;">
+    <p class="text-start">
+    <b>Simple present tense:</b> It is used to indicate the current action or an action that takes place regularly.<br>
+    Formula: Subject + Verb in the base form/third person plural form + the rest of the sentence
+    </p>
+    <table width="100%">
+      <tr>
+        <th>Person</th>
+        <th>Formula</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>I + verb</td>
+        <td>I play soccer.</td>
+      </tr>
+      <tr>
+        <td>You</td>
+        <td>You + verb</td>
+        <td>You eat apples.</td>
+      </tr>
+      <tr>
+        <td>He</td>
+        <td>He + verb + s</td>
+        <td>He reads books.</td>
+      </tr>
+      <tr>
+        <td>She</td>
+        <td>She + verb + s</td>
+        <td>She dances ballet.</td>
+      </tr>
+      <tr>
+        <td>It</td>
+        <td>It + verb + s</td>
+        <td>It rains often.</td>
+      </tr>
+      <tr>
+        <td>We</td>
+        <td>We + verb</td>
+        <td>We do homework.</td>
+      </tr>
+      <tr>
+        <td>They</td>
+        <td>They + verb</td>
+        <td>They live nearby.</td>
+      </tr>
+    </table>
+    <br>
+    <p class="text-start">
+      <b>Simple past tense:</b> The simple past tense shows that you are talking about something that has already happened.<br>
+      Formula: Subject + Verb in the past form (base form of the verb + ed/d for regular verbs or past tense form of the irregular verbs)
+      </p>
+      <table width="100%">
+        <tr>
+          <th>Person</th>
+          <th>Formula</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td>I</td>
+          <td>I + verb (past form)</td>
+          <td>I played soccer.</td>
+        </tr>
+        <tr>
+          <td>You</td>
+          <td>You + verb (past form)</td>
+          <td>You watched TV.</td>
+        </tr>
+        <tr>
+          <td>He</td>
+          <td>He + verb (past form)</td>
+          <td>He ate an apple.</td>
+        </tr>
+        <tr>
+          <td>She</td>
+          <td>She + verb (past form)</td>
+          <td>She danced ballet.</td>
+        </tr>
+        <tr>
+          <td>It</td>
+          <td>It + verb (past form)</td>
+          <td>It rained often.</td>
+        </tr>
+        <tr>
+          <td>We</td>
+          <td>We + verb (past form)</td>
+          <td>We did homework.</td>
+        </tr>
+        <tr>
+          <td>They</td>
+          <td>They + verb (past form)</td>
+          <td>They lived nearby.</td>
+        </tr>
+      </table>
+      <br>
+      <p class="text-start">
+        <b>Simple future tense:</b> The simple future tense is a tense that is used to represent an action that takes place later.<br>
+        Formula: Subject + Helping verb (will) + base form of the verb + the rest of the sentence
+        </p>
+        <table width="100%">
+          <tr>
+            <th>Person</th>
+            <th>Formula</th>
+            <th>Example</th>
+          </tr>
+          <tr>
+            <td>I</td>
+            <td>I will + verb</td>
+            <td>I will play soccer.</td>
+          </tr>
+          <tr>
+            <td>You</td>
+            <td>You will + verb</td>
+            <td>You will eat lunch.</td>
+          </tr>
+          <tr>
+            <td>He</td>
+            <td>He will + verb</td>
+            <td>He will read a book.</td>
+          </tr>
+          <tr>
+            <td>She</td>
+            <td>She will + verb</td>
+            <td>She will dance ballet.</td>
+          </tr>
+          <tr>
+            <td>It</td>
+            <td>It will + verb</td>
+            <td>It will rain tomorrow.</td>
+          </tr>
+          <tr>
+            <td>We</td>
+            <td>We will + verb</td>
+            <td>We will do our homework.</td>
+          </tr>
+          <tr>
+            <td>They</td>
+            <td>They will + verb</td>
+            <td>They will visit the park.</td>
+          </tr>
+        </table>
+    <hr>
+    
+    <p class="text-start">
+      <span style="color: rgb(154, 34, 240); font-weight: 600;font-size: 25px;"><u>Words that I learnt from the story</u></span><br><br>
+      <b>Equipment:</b> The tools, machines, or other items needed for a particular purpose or activity.
+      <br>
+      <u>Sentence</u>: The photographer set up his camera and lighting equipment for the photo shoot. 
+      <br><br>
+      <b>Frustrated:</b> Feeling annoyed or upset because you cannot achieve something or because something is blocking your progress.
+      <br>
+      <u>Sentence</u>: She felt frustrated when her computer froze in the middle of her work.
+      <br><br>
+      <b>Fuming:</b> Feeling or showing intense anger.
+      <br>
+      <u>Sentence</u>: He was fuming when he found out someone had scratched his car.
+    </p>
+    
+    <br><br>
+    <div style="text-align: center;">
+      <a href="fun_time.html" class="btn btn-primary mb-5 btn-lg text-center" style="height: 50px; width: 200px; font-size: 22px;text-align: center;">Fun Time</a>
+    </div>
+  </div>
+
+
+</body>
+</html>
